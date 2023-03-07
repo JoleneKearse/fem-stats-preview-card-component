@@ -53,7 +53,7 @@ body {
 
 /* ---------- TYPOGRAPHY ----------*/
 h1 {
-  font-size: clamp(1.75rem, 1.3979rem + 1.5023vw, 2.75rem);
+  font-size: clamp(1.75rem, 1.5739rem + 0.7512vw, 2.25rem);
   line-height: 1.2;
 }
 
@@ -101,12 +101,17 @@ h3 {
   margin-top: var(--gap-med);
 }
 
+h3:last-of-type {
+  margin-bottom: var(--gap-med);
+}
+
 /* ---------- COMPONENTS ----------*/
 .hero-overlay {
   background-color: #AB5CDB;
 }
 
 .hero {
+  width: 100%;
   mix-blend-mode: multiply;
 }
 
@@ -116,3 +121,38 @@ h3 {
 }
 
 /* ---------- MEDIA QUERIES ----------*/
+@media (min-width: 1440px) {
+  .card {
+    display: flex;
+  }
+  .hero-overlay {
+    order: 1;
+  }
+  .hero-overlay,
+  main {
+    flex: 50% 1 1;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: var(--gap-lg);
+    text-align: left;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap-med);
+    width: 100%;
+    margin-top: var(--gap-med);
+  }
+  main,
+  .stats {
+    max-width: 403px;
+  }
+  .hero,
+  .hero-overlay {
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  }
+}

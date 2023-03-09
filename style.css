@@ -121,7 +121,7 @@ h3:last-of-type {
 }
 
 /* ---------- MEDIA QUERIES ----------*/
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
   .card {
     display: flex;
   }

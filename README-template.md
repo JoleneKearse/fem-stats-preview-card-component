@@ -32,17 +32,17 @@ Users should be able to:
 
 ### Screenshot 📸
 
-![](./screenshot.jpg)
+![](screenshots/figma-design.png)
 
 Here's the provided design files:
 ![The Figma file's screenshots including desktop, active states & mobile](screenshots/figma-designs.png)
 
-And, tada 🪄, my solution - also in desktop, active states and mobile views:
+And, tada 🪄, my solution - also in desktop & mobile views:
 ![My solution screenshots of desktop, active states, and mobile views](screenshots/screenshot.gif)
 
 ### Links 🔗
 
-- [Github](https://github.com/JoleneKearse/fem-huddle-landing-page#overview-) - I certainly hope you're checking out this awesome-sauce README that I spent a fun evening composing!
+- [Github](https://github.com/JoleneKearse/fem-stats-preview-card-component) - I certainly hope you're checking out this awesome-sauce README that I spent a fun evening composing!
 - [Live link](https://fem-huddle-landing-page-jade.vercel.app/) - And also hope you, spectacular 🌟 you, have the time to impart your so-appreciated code reviews to me.  
 
 ## My Process 🤔

@@ -91,6 +91,7 @@ body {
 
 .card {
   width: clamp(264px, 75%, 1110px);
+  height: 956px;
   border-radius: var(--border-radius);
   background-color: var(--clr-neutral-800);
 }

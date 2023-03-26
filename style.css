@@ -9,8 +9,6 @@
   --gap-med: 2rem;
   --gap-lg: 3rem;
   --border-radius: .5rem;
-  --size-sm: 375px;
-  --size-lg: 1440px;
   color-scheme: dark;
 }
 /* ---------- RESET ----------*/
@@ -109,10 +107,6 @@ h3 {
   margin-top: var(--gap-sm);
 }
 
-/* h3:last-of-type {
-  margin-bottom: var(--gap-med);
-} */
-
 /* ---------- COMPONENTS ----------*/
 .hero-overlay {
   background-color: #AB5CDB;
@@ -147,7 +141,7 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: var(--gap-lg);
+    margin-inline: 10em;
     text-align: left;
   }
   .stats {

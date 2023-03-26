@@ -38,7 +38,7 @@ And, tada 🪄, my solution - also in desktop and mobile views:
 ### Links 🔗
 
 - [Github](https://github.com/JoleneKearse/fem-stats-preview-card-component) - I certainly hope you're checking out this awesome-sauce README that I spent a fun evening composing!
-- [Live link](https://frontend-mentor-tester.vercel.app/) - And also hope you, spectacular 🌟 you, have the time to impart your so-appreciated code reviews to me.  
+- [Live link](https://fem-stats-preview-card-component-two.vercel.app/) - And also hope you, spectacular 🌟 you, have the time to impart your so-appreciated code reviews to me.  
 
 ## My Process 🤔
 

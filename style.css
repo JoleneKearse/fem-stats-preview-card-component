@@ -132,13 +132,14 @@ h3 {
 @media (min-width: 1000px) {
   .card {
     display: flex;
+    height: 446px;
   }
   .hero-overlay {
     order: 1;
   }
   .hero-overlay,
   main {
-    flex: 50% 1 1;
+    flex-basis: 540px;
   }
   main {
     display: flex;
@@ -150,8 +151,8 @@ h3 {
   }
   .stats {
     display: flex;
-    justify-content: space-between;
-    gap: var(--gap-med);
+    justify-content: flex-start;
+    gap: var(--gap-lg);
     width: 100%;
     margin-top: var(--gap-med);
   }

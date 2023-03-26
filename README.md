@@ -32,7 +32,7 @@ Users should be able to:
 Here's the provided design files:
 ![The Figma file's screenshots including desktop & mobile](screenshots/figma-designs.png)
 
-And, tada 🪄, my solution - also in desktop, active states and mobile views:
+And, tada 🪄, my solution - also in desktop and mobile views:
 ![My solution screenshots of desktop and mobile views](screenshots/screenshots.png)
 
 ### Links 🔗

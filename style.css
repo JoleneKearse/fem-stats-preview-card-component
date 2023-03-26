@@ -134,21 +134,23 @@ h3 {
   }
   .hero-overlay,
   main {
-    flex: 540px 1 1;
+    flex: 1 1 50%;
   }
   main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-inline: 10em;
     text-align: left;
+  }
+  main .intro {
+    margin-inline: 4em;
   }
   .stats {
     display: flex;
     justify-content: flex-start;
     gap: var(--gap-lg);
-    width: 100%;
+    width: 403px;
     margin-top: var(--gap-med);
   }
   .hero,
